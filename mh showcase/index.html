@@ -1,0 +1,1430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Matheesha | Graphic Designer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<style>@media (min-width: 640px) {
+  /* For screens larger than 640px (e.g., tablet and desktop) */
+  .project-image {
+    object-fit: cover; /* Make the image cover the whole container */
+  }
+}
+
+@media (max-width: 639px) {
+  /* For smaller screens (e.g., mobile) */
+  .project-image {
+    object-fit: contain; /* Keep the image in its original size without cropping */
+  }
+}
+</style>
+</head>
+<body class="bg-black text-white font-sans overflow-x-hidden cursor-none">
+  <!-- Custom Cursor -->
+  <div id="cursor" class="fixed w-6 h-6 rounded-full bg-white mix-blend-difference pointer-events-none z-50 opacity-70"></div>
+  <div id="cursor-follower" class="fixed w-24 h-24 rounded-full border border-white pointer-events-none z-40 opacity-20"></div>
+  
+  <!-- Header -->
+  <header class="flex justify-between items-center px-8 py-6 fixed w-full z-30 transition-all duration-500" id="main-header">
+    <h1 class="text-2xl font-bold tracking-widest hover-element group">
+      <span class="menu-item relative">MATHEESHA | GRAPHIC DESIGNER </span>
+    </h1>
+    <nav class="space-x-10 text-sm font-light tracking-widest">
+      <a href="#work" class="menu-item hover-element relative group">WORK</a>
+      <a href="#answers" class="menu-item hover-element relative group">ANSWERS</a>
+      <a href="#contact" class="menu-item hover-element relative group">CONTACT</a>
+      <a href="#events" class="menu-item hover-element relative group">EVENTS</a>
+    </nav>
+  </header>
+  
+  <!-- Hero Section -->
+  <section class="h-screen flex items-center justify-center relative overflow-hidden" id="hero">
+    <div class="text-center z-10">
+      <h2 class="text-5xl md:text-7xl font-light tracking-wider mb-6 hero-text opacity-0">I WILL COLOR <br>YOUR IDEAS WITH MY CREATIVITY </h2>
+      <p class="text-xl font-light tracking-wider mt-4 hero-text opacity-0">Creativity as a way of being</p>
+      <div class="mt-12 hero-text opacity-0">
+        <a href="#work" class="border px-8 py-3 hover:bg-white hover:text-black transition-all duration-300 hover-element">EXPLORE WORK</a>
+      </div>
+    </div>
+    <div class="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-70"></div>
+    <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover">
+      <source src="/api/placeholder/1920/1080" type="video/mp4">
+    </video>
+  </section>
+  
+  <!-- Portfolio Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto px-4 md:px-8">
+  <div class="project-card relative overflow-hidden group cursor-pointer" 
+    data-title="BEAUTY PROJECT"
+    data-description="Visual exploration of aesthetics"
+    data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    data-tags="Design,Typography"
+    data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+    data-year="2024"
+    data-client="Personal Project"
+    data-role="Art Director & Designer"
+  >
+    <div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+    <img src="sent2.png" 
+         alt="BEAUTY PROJECT" 
+         class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+    <div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+      <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+      <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+      <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+      </div>
+    </div>
+  </div>
+  <div class="project-card relative overflow-hidden group cursor-pointer" 
+  data-title="BEAUTY PROJECT"
+  data-description="Visual exploration of aesthetics"
+  data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  data-tags="Design,Typography"
+  data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+  data-year="2024"
+  data-client="Personal Project"
+  data-role="Art Director & Designer"
+>
+  <div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+  <img src="sent.png" 
+       alt="BEAUTY PROJECT" 
+       class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+  <div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+    <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+    <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+    <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+      <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+      <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+    </div>
+  </div>
+</div>
+  <div class="project-card relative overflow-hidden group cursor-pointer" 
+  data-title="BEAUTY PROJECT"
+  data-description="Visual exploration of aesthetics"
+  data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  data-tags="Design,Typography"
+  data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+  data-year="2024"
+  data-client="Personal Project"
+  data-role="Art Director & Designer"
+>
+  <div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+  <img src="sent1.png" 
+       alt="BEAUTY PROJECT" 
+       class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+  <div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+    <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+    <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+    <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+      <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+      <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+    </div>
+  </div>
+</div>
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+data-title="BEAUTY PROJECT"
+data-description="Visual exploration of aesthetics"
+data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+data-tags="Design,Typography"
+data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+data-year="2024"
+data-client="Personal Project"
+data-role="Art Director & Designer"
+>
+<div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+<img src="thum1.png" 
+     alt="BEAUTY PROJECT" 
+     class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+<div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+  <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+  <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+  <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+  </div>
+</div>
+</div>
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+data-title="BEAUTY PROJECT"
+data-description="Visual exploration of aesthetics"
+data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+data-tags="Design,Typography"
+data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+data-year="2024"
+data-client="Personal Project"
+data-role="Art Director & Designer"
+>
+<div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+<img src="thum3.jpg" 
+     alt="BEAUTY PROJECT" 
+     class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+<div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+  <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+  <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+  <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+  </div>
+</div>
+</div>
+
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+    data-title="BEAUTY PROJECT"
+    data-description="Visual exploration of aesthetics"
+    data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    data-tags="Design,Typography"
+    data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+    data-year="2024"
+    data-client="Personal Project"
+    data-role="Art Director & Designer"
+  >
+    <div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+    <img src="thumb4.jpg" 
+         alt="BEAUTY PROJECT" 
+         class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+    <div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+      <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+      <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+      <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card relative overflow-hidden group cursor-pointer" 
+    data-title="BEAUTY PROJECT"
+    data-description="Visual exploration of aesthetics"
+    data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    data-tags="Design,Typography"
+    data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+    data-year="2024"
+    data-client="Personal Project"
+    data-role="Art Director & Designer"
+  >
+    <div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+    <img src="detol.jpg" 
+         alt="BEAUTY PROJECT" 
+         class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+    <div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+      <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+      <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+      <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+      </div>
+    </div>
+  </div>
+  <div class="project-card relative overflow-hidden group cursor-pointer" 
+  data-title="BEAUTY PROJECT"
+  data-description="Visual exploration of aesthetics"
+  data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  data-tags="Design,Typography"
+  data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+  data-year="2024"
+  data-client="Personal Project"
+  data-role="Art Director & Designer"
+>
+  <div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+  <img src="beer.png" 
+       alt="BEAUTY PROJECT" 
+       class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+  <div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+    <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+    <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+    <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+      <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+      <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+    </div>
+  </div>
+</div>
+
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+    data-title="BEAUTY PROJECT"
+    data-description="Visual exploration of aesthetics"
+    data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    data-tags="Design,Typography"
+    data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+    data-year="2024"
+    data-client="Personal Project"
+    data-role="Art Director & Designer"
+  >
+    <div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+    <img src="PACTRICAL LESSONS.png" 
+         alt="BEAUTY PROJECT" 
+         class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+    <div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+      <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+      <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+      <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card relative overflow-hidden group cursor-pointer" 
+    data-title="BEAUTY PROJECT"
+    data-description="Visual exploration of aesthetics"
+    data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    data-tags="Design,Typography"
+    data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+    data-year="2024"
+    data-client="Personal Project"
+    data-role="Art Director & Designer"
+  >
+    <div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+    <img src="7.png" 
+         alt="BEAUTY PROJECT" 
+         class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+    <div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+      <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+      <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+      <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card relative overflow-hidden group cursor-pointer" 
+  data-title="BEAUTY PROJECT"
+  data-description="Visual exploration of aesthetics"
+  data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  data-tags="Design,Typography"
+  data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+  data-year="2024"
+  data-client="Personal Project"
+  data-role="Art Director & Designer"
+>
+  <div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+  <img src="l1.png" 
+       alt="BEAUTY PROJECT" 
+       class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+  <div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+    <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+    <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+    <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+      <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+      <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+    </div>
+  </div>
+</div>
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+    data-title="BEAUTY PROJECT"
+    data-description="Visual exploration of aesthetics"
+    data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    data-tags="Design,Typography"
+    data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+    data-year="2024"
+    data-client="Personal Project"
+    data-role="Art Director & Designer"
+  >
+    <div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+    <img src="l2.png" 
+         alt="BEAUTY PROJECT" 
+         class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+    <div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+      <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+      <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+      <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card relative overflow-hidden group cursor-pointer" 
+  data-title="BEAUTY PROJECT"
+  data-description="Visual exploration of aesthetics"
+  data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  data-tags="Design,Typography"
+  data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+  data-year="2024"
+  data-client="Personal Project"
+  data-role="Art Director & Designer"
+>
+  <div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+  <img src="SHIYANI DRESS POINT (1).png" 
+       alt="BEAUTY PROJECT" 
+       class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+  <div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+    <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+    <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+    <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+      <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+      <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+    </div>
+  </div>
+</div>
+
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+    data-title="BEAUTY PROJECT"
+    data-description="Visual exploration of aesthetics"
+    data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    data-tags="Design,Typography"
+    data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+    data-year="2024"
+    data-client="Personal Project"
+    data-role="Art Director & Designer"
+  >
+    <div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+    <img src="4 in one (5).png" 
+         alt="BEAUTY PROJECT" 
+         class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+    <div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+      <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+      <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+      <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card relative overflow-hidden group cursor-pointer" 
+    data-title="BEAUTY PROJECT"
+    data-description="Visual exploration of aesthetics"
+    data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    data-tags="Design,Typography"
+    data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+    data-year="2024"
+    data-client="Personal Project"
+    data-role="Art Director & Designer"
+  >
+    <div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+    <img src="bag1.png" 
+         alt="BEAUTY PROJECT" 
+         class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+    <div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+      <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+      <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+      <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+      </div>
+    </div>
+  </div>
+  <div class="project-card relative overflow-hidden group cursor-pointer" 
+  data-title="BEAUTY PROJECT"
+  data-description="Visual exploration of aesthetics"
+  data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  data-tags="Design,Typography"
+  data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+  data-year="2024"
+  data-client="Personal Project"
+  data-role="Art Director & Designer"
+>
+  <div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+  <img src="master .jpg" 
+       alt="BEAUTY PROJECT" 
+       class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+  <div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+    <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+    <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+    <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+      <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+      <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+    </div>
+  </div>
+</div>
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+    data-title="BEAUTY PROJECT"
+    data-description="Visual exploration of aesthetics"
+    data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    data-tags="Design,Typography"
+    data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+    data-year="2024"
+    data-client="Personal Project"
+    data-role="Art Director & Designer"
+  >
+    <div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+    <img src="Dream Wall Art (4).png" 
+         alt="BEAUTY PROJECT" 
+         class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+    <div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+      <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+      <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+      <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card relative overflow-hidden group cursor-pointer" 
+  data-title="BEAUTY PROJECT"
+  data-description="Visual exploration of aesthetics"
+  data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  data-tags="Design,Typography"
+  data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+  data-year="2024"
+  data-client="Personal Project"
+  data-role="Art Director & Designer"
+>
+  <div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+  <img src="chips.png" 
+       alt="BEAUTY PROJECT" 
+       class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+  <div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+    <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+    <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+    <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+      <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+      <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+    </div>
+  </div>
+</div>
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+    data-title="BEAUTY PROJECT"
+    data-description="Visual exploration of aesthetics"
+    data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    data-tags="Design,Typography"
+    data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+    data-year="2024"
+    data-client="Personal Project"
+    data-role="Art Director & Designer"
+  >
+    <div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+    <img src="2.png" 
+         alt="BEAUTY PROJECT" 
+         class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+    <div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+      <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+      <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+      <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+      </div>
+    </div>
+  </div>
+  <div class="project-card relative overflow-hidden group cursor-pointer" 
+  data-title="BEAUTY PROJECT"
+  data-description="Visual exploration of aesthetics"
+  data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  data-tags="Design,Typography"
+  data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+  data-year="2024"
+  data-client="Personal Project"
+  data-role="Art Director & Designer"
+>
+  <div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+  <img src="3.png" 
+       alt="BEAUTY PROJECT" 
+       class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+  <div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+    <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+    <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+    <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+      <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+      <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+    </div>
+  </div>
+</div>
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+    data-title="BEAUTY PROJECT"
+    data-description="Visual exploration of aesthetics"
+    data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    data-tags="Design,Typography"
+    data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+    data-year="2024"
+    data-client="Personal Project"
+    data-role="Art Director & Designer"
+  >
+    <div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+    <img src="SPECIAL (4).png" 
+         alt="BEAUTY PROJECT" 
+         class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+    <div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+      <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+      <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+      <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card relative overflow-hidden group cursor-pointer" 
+  data-title="BEAUTY PROJECT"
+  data-description="Visual exploration of aesthetics"
+  data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  data-tags="Design,Typography"
+  data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+  data-year="2024"
+  data-client="Personal Project"
+  data-role="Art Director & Designer"
+>
+  <div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+  <img src="e card.png" 
+       alt="BEAUTY PROJECT" 
+       class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+  <div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+    <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+    <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+    <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+      <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+      <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+    </div>
+  </div>
+</div>
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+    data-title="BEAUTY PROJECT"
+    data-description="Visual exploration of aesthetics"
+    data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    data-tags="Design,Typography"
+    data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+    data-year="2024"
+    data-client="Personal Project"
+    data-role="Art Director & Designer"
+  >
+    <div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+    <img src="visiting card.png" 
+         alt="BEAUTY PROJECT" 
+         class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+    <div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+      <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+      <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+      <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card relative overflow-hidden group cursor-pointer" 
+  data-title="BEAUTY PROJECT"
+  data-description="Visual exploration of aesthetics"
+  data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  data-tags="Design,Typography"
+  data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+  data-year="2024"
+  data-client="Personal Project"
+  data-role="Art Director & Designer"
+>
+  <div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+  <img src="Co (1).png" 
+       alt="BEAUTY PROJECT" 
+       class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+  <div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+    <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+    <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+    <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+      <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+      <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+    </div>
+  </div>
+</div>
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+data-title="BEAUTY PROJECT"
+data-description="Visual exploration of aesthetics"
+data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+data-tags="Design,Typography"
+data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+data-year="2024"
+data-client="Personal Project"
+data-role="Art Director & Designer"
+>
+<div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+<img src="moringa.png" 
+     alt="BEAUTY PROJECT" 
+     class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+<div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+  <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+  <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+  <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+  </div>
+</div>
+</div>
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+data-title="BEAUTY PROJECT"
+data-description="Visual exploration of aesthetics"
+data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+data-tags="Design,Typography"
+data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+data-year="2024"
+data-client="Personal Project"
+data-role="Art Director & Designer"
+>
+<div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+<img src="heenbovitiya.png" 
+     alt="BEAUTY PROJECT" 
+     class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+<div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+  <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+  <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+  <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+  </div>
+</div>
+</div>
+
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+data-title="BEAUTY PROJECT"
+data-description="Visual exploration of aesthetics"
+data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+data-tags="Design,Typography"
+data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+data-year="2024"
+data-client="Personal Project"
+data-role="Art Director & Designer"
+>
+<div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+<img src="yaki.png" 
+     alt="BEAUTY PROJECT" 
+     class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+<div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+  <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+  <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+  <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+  </div>
+</div>
+</div>
+
+
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+data-title="BEAUTY PROJECT"
+data-description="Visual exploration of aesthetics"
+data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+data-tags="Design,Typography"
+data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+data-year="2024"
+data-client="Personal Project"
+data-role="Art Director & Designer"
+>
+<div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+<img src="m1.png" 
+     alt="BEAUTY PROJECT" 
+     class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+<div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+  <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+  <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+  <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+  </div>
+</div>
+</div>
+
+
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+data-title="BEAUTY PROJECT"
+data-description="Visual exploration of aesthetics"
+data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+data-tags="Design,Typography"
+data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+data-year="2024"
+data-client="Personal Project"
+data-role="Art Director & Designer"
+>
+<div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+<img src="m2.png" 
+     alt="BEAUTY PROJECT" 
+     class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+<div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+  <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+  <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+  <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+  </div>
+</div>
+</div>
+
+
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+data-title="BEAUTY PROJECT"
+data-description="Visual exploration of aesthetics"
+data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+data-tags="Design,Typography"
+data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+data-year="2024"
+data-client="Personal Project"
+data-role="Art Director & Designer"
+>
+<div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+<img src="m3.png" 
+     alt="BEAUTY PROJECT" 
+     class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+<div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+  <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+  <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+  <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+  </div>
+</div>
+</div>
+
+
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+data-title="BEAUTY PROJECT"
+data-description="Visual exploration of aesthetics"
+data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+data-tags="Design,Typography"
+data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+data-year="2024"
+data-client="Personal Project"
+data-role="Art Director & Designer"
+>
+<div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+<img src="tm1.jpg" 
+     alt="BEAUTY PROJECT" 
+     class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+<div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+  <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+  <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+  <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+  </div>
+</div>
+</div>
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+data-title="BEAUTY PROJECT"
+data-description="Visual exploration of aesthetics"
+data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+data-tags="Design,Typography"
+data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+data-year="2024"
+data-client="Personal Project"
+data-role="Art Director & Designer"
+>
+<div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+<img src="tm2.png" 
+     alt="BEAUTY PROJECT" 
+     class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+<div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+  <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+  <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+  <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+  </div>
+</div>
+</div>
+
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+data-title="BEAUTY PROJECT"
+data-description="Visual exploration of aesthetics"
+data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+data-tags="Design,Typography"
+data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+data-year="2024"
+data-client="Personal Project"
+data-role="Art Director & Designer"
+>
+<div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+<img src="tm3.png" 
+     alt="BEAUTY PROJECT" 
+     class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+<div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+  <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+  <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+  <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+  </div>
+</div>
+</div>
+
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+data-title="BEAUTY PROJECT"
+data-description="Visual exploration of aesthetics"
+data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+data-tags="Design,Typography"
+data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+data-year="2024"
+data-client="Personal Project"
+data-role="Art Director & Designer"
+>
+<div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+<img src="p1.png" 
+     alt="BEAUTY PROJECT" 
+     class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+<div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+  <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+  <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+  <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+  </div>
+</div>
+</div>
+
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+data-title="BEAUTY PROJECT"
+data-description="Visual exploration of aesthetics"
+data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+data-tags="Design,Typography"
+data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+data-year="2024"
+data-client="Personal Project"
+data-role="Art Director & Designer"
+>
+<div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+<img src="p2.png" 
+     alt="BEAUTY PROJECT" 
+     class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+<div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+  <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+  <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+  <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+  </div>
+</div>
+</div>
+
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+data-title="BEAUTY PROJECT"
+data-description="Visual exploration of aesthetics"
+data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+data-tags="Design,Typography"
+data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+data-year="2024"
+data-client="Personal Project"
+data-role="Art Director & Designer"
+>
+<div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+<img src="p3.png" 
+     alt="BEAUTY PROJECT" 
+     class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+<div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+  <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+  <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+  <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+  </div>
+</div>
+</div>
+
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+data-title="BEAUTY PROJECT"
+data-description="Visual exploration of aesthetics"
+data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+data-tags="Design,Typography"
+data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+data-year="2024"
+data-client="Personal Project"
+data-role="Art Director & Designer"
+>
+<div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+<img src="i1.png" 
+     alt="BEAUTY PROJECT" 
+     class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+<div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+  <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+  <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+  <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+  </div>
+</div>
+</div>
+
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+data-title="BEAUTY PROJECT"
+data-description="Visual exploration of aesthetics"
+data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+data-tags="Design,Typography"
+data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+data-year="2024"
+data-client="Personal Project"
+data-role="Art Director & Designer"
+>
+<div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+<img src="12.png" 
+     alt="BEAUTY PROJECT" 
+     class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+<div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+  <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+  <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+  <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+  </div>
+</div>
+</div>
+
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+data-title="BEAUTY PROJECT"
+data-description="Visual exploration of aesthetics"
+data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+data-tags="Design,Typography"
+data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+data-year="2024"
+data-client="Personal Project"
+data-role="Art Director & Designer"
+>
+<div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+<img src="tooth (8.9 x 11.8 cm).png" 
+     alt="BEAUTY PROJECT" 
+     class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+<div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+  <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+  <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+  <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+  </div>
+</div>
+</div>
+
+
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+data-title="BEAUTY PROJECT"
+data-description="Visual exploration of aesthetics"
+data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+data-tags="Design,Typography"
+data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+data-year="2024"
+data-client="Personal Project"
+data-role="Art Director & Designer"
+>
+<div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+<img src="c1.png" 
+     alt="BEAUTY PROJECT" 
+     class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+<div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+  <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+  <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+  <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+  </div>
+</div>
+</div>
+
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+data-title="BEAUTY PROJECT"
+data-description="Visual exploration of aesthetics"
+data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+data-tags="Design,Typography"
+data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+data-year="2024"
+data-client="Personal Project"
+data-role="Art Director & Designer"
+>
+<div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+<img src="c2.png"
+     class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+<div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+  <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+  <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+  <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+  </div>
+</div>
+</div>
+
+<div class="project-card relative overflow-hidden group cursor-pointer" 
+data-title="BEAUTY PROJECT"
+data-description="Visual exploration of aesthetics"
+data-image="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+data-tags="Design,Typography"
+data-about="An extensive exploration into the relationship between visual aesthetics and emotional response. This project delves into how different design elements can evoke specific feelings and create meaningful connections with viewers."
+data-year="2024"
+data-client="Personal Project"
+data-role="Art Director & Designer"
+>
+<div class="absolute inset-0 bg-black bg-opacity-20 z-10 transition-all duration-500 group-hover:bg-opacity-40"></div>
+<img src="c3.png" 
+     alt="BEAUTY PROJECT" 
+     class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+<div class="absolute bottom-8 left-8 text-white z-20 transition-transform duration-500 transform translate-y-4 group-hover:translate-y-0">
+
+  <div class="h-px w-12 bg-white mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+  <p class="text-sm mt-2 opacity-0 transition-opacity duration-500 group-hover:opacity-100">Visual exploration of aesthetics</p>
+  <div class="mt-4 flex flex-wrap gap-2 opacity-0 transition-opacity duration-700 delay-100 group-hover:opacity-100">
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Design</span>
+    <span class="text-xs px-2 py-1 bg-white bg-opacity-20 rounded-full">Typography</span>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+<!-- Modal -->
+<div id="modal" class="fixed inset-0 bg-black bg-opacity-90 z-50 hidden">
+  <div class="flex items-center justify-center min-h-screen p-4">
+    <div class="relative bg-zinc-900 max-w-3xl w-full rounded-lg overflow-hidden">
+      <button 
+        onclick="closeModal()"
+        class="absolute top-4 right-4 text-white hover:text-gray-300 transition-colors duration-300"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="aspect-video w-full">
+        <img id="modal-image" src="" alt="" class="w-full h-full object-cover">
+      </div>
+
+      <div class="p-8">
+        <h2 id="modal-title" class="text-2xl font-light tracking-wider text-white mb-2"></h2>
+        <div class="h-px w-16 bg-white opacity-50 mb-6"></div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="col-span-2">
+            <h3 class="text-sm text-gray-400 mb-2">About</h3>
+            <p id="modal-about" class="text-white"></p>
+
+            <div id="modal-tags" class="mt-6 flex flex-wrap gap-2"></div>
+          </div>
+
+          <div>
+            <div class="mb-4">
+              <h3 class="text-sm text-gray-400 mb-1">Year</h3>
+              <p id="modal-year" class="text-white"></p>
+            </div>
+
+            <div class="mb-4">
+              <h3 class="text-sm text-gray-400 mb-1">Client</h3>
+              <p id="modal-client" class="text-white"></p>
+            </div>
+
+            <div class="mb-4">
+              <h3 class="text-sm text-gray-400 mb-1">Role</h3>
+              <p id="modal-role" class="text-white"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+  <!-- Contact Section -->
+  <section class="py-24 px-4 md:px-8" id="contact">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-4xl font-light tracking-wider mb-6">GET IN TOUCH</h2>
+      <div class="h-px w-24 bg-white opacity-50 mb-12"></div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div>
+          <h3 class="text-2xl font-light mb-6">Contact Information</h3>
+          <p class="text-gray-300 mb-6">For Model Design, Facebook post Design , Product Manipulation and more , please use the form or contact directly.</p>
+          
+          <div class="mb-4">
+            <p class="text-gray-400 text-sm mb-1">Email</p>
+            <p class="text-white">teddygraphics84@gmail.com</p>
+          </div>
+          
+          <div class="mb-4">
+            <p class="text-gray-400 text-sm mb-1">Studio</p>
+            <p class="text-white">58/3 Nethum Pailigama , Maho</p>
+          </div>
+          
+          <div class="mt-8 flex space-x-6">
+            <a href="https://www.facebook.com/profile.php?id=61561174091921" class="hover-element text-gray-400 hover:text-white transition-colors duration-300">facebook</a>
+            <a href="https://www.youtube.com/@Mathizz_x" class="hover-element text-gray-400 hover:text-white transition-colors duration-300">youtube</a>
+            <a href="https://www.linkedin.com/in/nethum-matheesha-b1a52a346/" class="hover-element text-gray-400 hover:text-white transition-colors duration-300">LinkedIn</a>
+          </div>
+        </div>
+        
+        <div>
+          <form>
+            <div class="mb-6">
+              <label for="name" class="block text-sm text-gray-400 mb-2">Name</label>
+              <input type="text" id="name" class="w-full bg-transparent border-b border-gray-700 py-2 focus:outline-none focus:border-white transition-colors duration-300">
+            </div>
+            
+            <div class="mb-6">
+              <label for="email" class="block text-sm text-gray-400 mb-2">Email</label>
+              <input type="email" id="email" class="w-full bg-transparent border-b border-gray-700 py-2 focus:outline-none focus:border-white transition-colors duration-300">
+            </div>
+            
+            <div class="mb-6">
+              <label for="message" class="block text-sm text-gray-400 mb-2">Message</label>
+              <textarea id="message" rows="4" class="w-full bg-transparent border-b border-gray-700 py-2 focus:outline-none focus:border-white transition-colors duration-300"></textarea>
+            </div>
+            
+           
+          </form> <a href="https://wa.link/n0nd1k"><button type="submit" class="border px-8 py-3 hover:bg-white hover:text-black transition-all duration-300 hover-element">SEND MESSAGE</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+ 
+  <!-- Footer -->
+  <footer class="py-12 px-4 md:px-8 border-t border-gray-800">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="mb-6 md:mb-0">
+          <h2 class="text-xl font-bold tracking-wider">MATHEESHA | 077 900 4063 </h2>
+          <p class="text-gray-400 mt-2">© 2025 All rights reserved</p>
+        </div>
+        
+        <div class="flex space-x-6">
+          <a href="https://www.facebook.com/profile.php?id=61561174091921" class="hover-element text-gray-400 hover:text-white transition-colors duration-300">facebook</a>
+          <a href="https://www.youtube.com/@Mathizz_x" class="hover-element text-gray-400 hover:text-white transition-colors duration-300">youtube</a>
+          <a href="https://www.linkedin.com/in/nethum-matheesha-b1a52a346/" class="hover-element text-gray-400 hover:text-white transition-colors duration-300">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    // Custom cursor
+    document.addEventListener('DOMContentLoaded', function() {
+      const cursor = document.getElementById('cursor');
+      const cursorFollower = document.getElementById('cursor-follower');
+      const links = document.querySelectorAll('.hover-element');
+      const header = document.getElementById('main-header');
+      
+      // Initial animations
+      gsap.to('.hero-text', {
+        opacity: 1,
+        y: 0,
+        duration: 1,
+        stagger: 0.2,
+        delay: 0.5
+      });
+      
+      // Fade in animation for philosophy items
+      const philosophyItems = document.querySelectorAll('.philosophy-item');
+      
+      // Set up intersection observer
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            gsap.to(entry.target, {
+              opacity: 1,
+              y: 0,
+              duration: 0.8,
+              delay: 0.1
+            });
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {threshold: 0.2});
+      
+      // Observe each philosophy item
+      philosophyItems.forEach(item => {
+        gsap.set(item, {opacity: 0, y: 30});
+        observer.observe(item);
+      });
+      
+      // Cursor movement
+      document.addEventListener('mousemove', function(e) {
+        gsap.to(cursor, {
+          x: e.clientX,
+          y: e.clientY,
+          duration: 0.1
+        });
+        
+        gsap.to(cursorFollower, {
+          x: e.clientX - 12,
+          y: e.clientY - 12,
+          duration: 0.5
+        });
+      });
+      
+      // Link hover effects
+      links.forEach(link => {
+        link.addEventListener('mouseenter', () => {
+          gsap.to(cursor, {
+            scale: 1.5,
+            opacity: 0.9,
+            duration: 0.3
+          });
+          gsap.to(cursorFollower, {
+            scale: 1.5,
+            opacity: 0.4,
+            duration: 0.3
+          });
+        });
+        
+        link.addEventListener('mouseleave', () => {
+          gsap.to(cursor, {
+            scale: 1,
+            opacity: 0.7,
+            duration: 0.3
+          });
+          gsap.to(cursorFollower, {
+            scale: 1,
+            opacity: 0.2,
+            duration: 0.3
+          });
+        });
+      });
+      
+      // Project card hover effects
+      const projectCards = document.querySelectorAll('.project-card');
+      
+      projectCards.forEach(card => {
+        card.addEventListener('mouseenter', () => {
+          gsap.to(cursor, {
+            scale: 1.5,
+            opacity: 0.9,
+            duration: 0.3
+          });
+          gsap.to(cursorFollower, {
+            scale: 2,
+            opacity: 0.3,
+            duration: 0.3
+          });
+        });
+        
+        card.addEventListener('mouseleave', () => {
+          gsap.to(cursor, {
+            scale: 1,
+            opacity: 0.7,
+            duration: 0.3
+          });
+          gsap.to(cursorFollower, {
+            scale: 1,
+            opacity: 0.2,
+            duration: 0.3
+          });
+        });
+      });
+      
+      // Sticky header
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+          header.classList.add('py-4', 'bg-black', 'bg-opacity-90', 'backdrop-blur-sm');
+          header.classList.remove('py-6');
+        } else {
+          header.classList.add('py-6');
+          header.classList.remove('py-4', 'bg-black', 'bg-opacity-90', 'backdrop-blur-sm');
+        }
+      });
+      
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+    });
+
+ // Modal functionality
+  const modal = document.getElementById('modal');
+  const projectCards = document.querySelectorAll('.project-card');
+
+  function openModal(card) {
+    const modalImage = document.getElementById('modal-image');
+    const modalTitle = document.getElementById('modal-title');
+    const modalAbout = document.getElementById('modal-about');
+    const modalYear = document.getElementById('modal-year');
+    const modalClient = document.getElementById('modal-client');
+    const modalRole = document.getElementById('modal-role');
+    const modalTags = document.getElementById('modal-tags');
+
+    modalImage.src = card.dataset.image;
+    modalImage.alt = card.dataset.title;
+    modalTitle.textContent = card.dataset.title;
+    modalAbout.textContent = card.dataset.about;
+    modalYear.textContent = card.dataset.year;
+    modalClient.textContent = card.dataset.client;
+    modalRole.textContent = card.dataset.role;
+
+    // Clear and populate tags
+    modalTags.innerHTML = '';
+    card.dataset.tags.split(',').forEach(tag => {
+      const span = document.createElement('span');
+      span.className = 'text-xs px-2 py-1 bg-white bg-opacity-10 rounded-full text-white';
+      span.textContent = tag;
+      modalTags.appendChild(span);
+    });
+
+    modal.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeModal() {
+    modal.classList.add('hidden');
+    document.body.style.overflow = '';
+  }
+
+  projectCards.forEach(card => {
+    card.addEventListener('click', () => openModal(card));
+  });
+
+  // Close modal when clicking outside
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) {
+      closeModal();
+    }
+  });
+
+  // Close modal on escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeModal();
+    }
+  });
+
+  </script>
+</body>
+</html>
